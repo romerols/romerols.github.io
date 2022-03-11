@@ -10,6 +10,23 @@
       </span>
     </h1>
     <div class="landing-icons">
+      
+      {% if site.blog != null %}
+        <a class="social-link blog" aria-label="Blog" target="_blank"
+          rel="noreferrer" href="https://blog-romerols.github.io/"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#blog" | prepend: site.baseurl }}"></use>
+            </svg>
+          </div>
+          <span class="label">Blog</span>
+        </a>
+      {% endif %}
+      
       {% if site.email != null %}
         <a class="social-link email" aria-label="My E-Mail" href="mailto:{{site.email}}">
           <svg viewBox="0 0 200 200" class="circle">
