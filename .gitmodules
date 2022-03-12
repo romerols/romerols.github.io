@@ -7,3 +7,6 @@
 [submodule "blog3"]
 	path = blog3
 	url = https://github.com/blog-romerols/blog-romerols.github.io
+[submodule "test"]
+	path = test
+	url = https://github.com/ssergioz5/ssergioz5.github.io
