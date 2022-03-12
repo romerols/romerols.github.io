@@ -26,7 +26,7 @@ dev_username: exampleUser
 linkedin_username: sergioromerollanos
 twitter_username: exampleUser
 # DESCOMENTAR CUANDO ESTÉ EL BLOG OK: https://blog-romerols.github.io/
-#blog: miblog
+blog: miblog
 
 # ABOUT ME SECTION
 # show_aboutme_card:
