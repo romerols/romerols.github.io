@@ -1,3 +1,6 @@
 [submodule "blog"]
 	path = blog
 	url = https://github.com/romerols/jekyll-theme-basically-basic
+[submodule "blog2"]
+	path = blog2
+	url = https://github.com/romerols/blog
